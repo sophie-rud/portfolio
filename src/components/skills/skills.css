@@ -1,5 +1,5 @@
 #skills {
-	display: flex;
+	/* display: flex; */
 	max-width: calc(var(--max-width) + 2.2rem);
 	padding: 1.1rem;
 	gap: 2.2rem;
@@ -7,12 +7,17 @@
 }
 
 #skills .text-content {
-	max-width: 40%;
+	max-width: 70%;
 	flex: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	gap: 1.1rem;
+	margin-bottom: 3rem;
+}
+
+#skills .skills-content {
+	display: flex;
 }
 
 @media screen and (max-width: 768px) {

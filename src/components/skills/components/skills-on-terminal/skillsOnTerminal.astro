@@ -4,32 +4,130 @@ import Terminal from '../terminal/Terminal.astro';
 import './skills-on-terminal.css';
 ---
 
-<Terminal nombre="jhonDoe">
+<Terminal nombre="sophieRudio">
+
 	<div class="terminal__skills">
-		<h2>Mis habilidades</h2>
+		<h3>Développement web</h3>
 		<div class="terminal__skills__container">
+			<TerminalIcon
+				src="/assets/html.png"
+				color="#FF4747"
+				name="HTML"
+			/>
+			<TerminalIcon
+				src="/assets/javascript.svg"
+				color="#F0DB4F"
+				name="JavaScript"
+			/>
+			<TerminalIcon 
+				src="/assets/css3.svg" 
+				color="#2965f1" 
+				name="CSS" 
+			/>
+			<TerminalIcon
+				src="/assets/sass.svg"
+				color="#cb6699"
+				name="Sass"
+			/>
 			<TerminalIcon
 				src="/assets/bootstrap.svg"
 				color="#7738ff"
 				name="Bootstrap"
 			/>
-			<TerminalIcon
-				src="/assets/angular.svg"
-				color="#FF4747"
-				name="Angular"
+			<TerminalIcon 
+				src="/assets/php.png" 
+				color="#7a9edd"
+				name="PHP" 
 			/>
 			<TerminalIcon
-				src="/assets/react.svg"
-				color="#00D1FF"
-				name="React"
+				src="/assets/symfony.png"
+				color="#ffffff"
+				name="Symfony"
 			/>
-			<TerminalIcon src="/assets/bun.svg" color="#F3CBC2" name="Bun" />
-			<TerminalIcon src="/assets/css.svg" color="#00A3FF" name="CSS" />
 			<TerminalIcon
-				src="/assets/electron.svg"
-				color="#3F75FF"
-				name="Electron"
+				src="/assets/mysql.png"
+				color="#F79C25"
+				name="MySQL"
 			/>
 		</div>
+	</div>
+	<div class="terminal__skills"> 
+			<h3>Bureautique</h3>
+			<div class="terminal__skills__container">
+				<TerminalIcon
+					src="/assets/office-365.svg"
+					color="#F34009"
+					name="PackOffice"
+				/>
+				<TerminalIcon
+					src="/assets/trello.svg"
+					color="#085ED7"
+					name="Trello"
+				/>
+			</div>
+
+	</div>
+		<div class="terminal__skills"> 
+			<h3>Architecture & Design</h3>
+			<div class="terminal__skills__container mb_4em">
+					<TerminalIcon
+						src="/assets/vectorworks.svg"
+						color="#ffffff"
+						name="Vectorworks"
+					/>
+					<TerminalIcon
+						src="/assets/archicad.svg"
+						color="#5E72B1"
+						name="ArchiCad"
+					/>
+					<TerminalIcon
+						src="/assets/autocad.svg"
+						color="#DE104E"
+						name="AutoCad"
+					/>
+					<TerminalIcon
+						src="/assets/sketchup.svg"
+						color="#E83234"
+						name="Sketchup"
+					/>
+					<TerminalIcon
+						src="/assets/diamond.svg"
+						color="#08A591"
+						name="Artlantis"
+					/>
+					<TerminalIcon
+						src="/assets/twinmotion.svg"
+						color="#ffffff"
+						name="Twinmotion"
+					/>
+					<TerminalIcon
+						src="/assets/qgis.svg"
+						color="#7CA730"
+						name="Qgis"
+					/>
+
+			</div>
+			<div class="terminal__skills__container">
+					<TerminalIcon
+						src="/assets/indesign.svg"
+						color="#E750A0"
+						name="InDesign"
+					/>
+					<TerminalIcon
+						src="/assets/photoshop.svg"
+						color="#37ABFF"
+						name="Photoshop"
+					/>
+					<TerminalIcon
+						src="/assets/illustrator.svg"
+						color="#FF9D08"
+						name="Illustrator"
+					/>
+					<TerminalIcon
+						src="/assets/figma.svg"
+						color="#FF7566"
+						name="Figma"
+					/>
+				</div>
 	</div>
 </Terminal>

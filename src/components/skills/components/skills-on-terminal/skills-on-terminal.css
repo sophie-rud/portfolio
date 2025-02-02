@@ -5,11 +5,16 @@
 	justify-content: center;
 	gap: 2.2rem;
 }
+
+.mb_4em{
+	margin-bottom: 4rem;
+}
+
 .terminal__skills {
 	padding: 2.2rem 0;
 }
 
-.terminal__skills h2 {
+.terminal__skills h3 {
 	font-size: var(--text-xx-large);
 	font-weight: 600;
 	color: var(--secondary-90);

@@ -10,7 +10,7 @@
 	color: var(--icon-color);
 }
 .icon {
-	font-size: 7rem;
+	font-size: 5rem;
 }
 
 .name {
@@ -18,8 +18,8 @@
 }
 .icon {
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 0.7em;
+	height: 0.7em;
 	background-color: currentColor;
 	-webkit-mask-image: var(--svg);
 	mask-image: var(--svg);

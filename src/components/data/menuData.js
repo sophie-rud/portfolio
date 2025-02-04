@@ -2,7 +2,7 @@ export const mainMenu = [
      {link:"#", content:"Home", icon:"lucide:home"},
      {link:"#about", content:"À propos", icon:"octicon:person-24"},
      {link:"#skills", content:"Compétences", icon:"tabler:list-check"},
-     {link:"#skills", content:"Parcours", icon:"pepicons-print:cv"},
+     {link:"#background", content:"Parcours", icon:"pepicons-print:cv"},
      {link:"#portafolio", content:"Portfolio", icon:"carbon:portfolio"},
      {link:"#blog", content:"Blog", icon:"mdi:blog"}
 ]

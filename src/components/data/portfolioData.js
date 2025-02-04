@@ -17,30 +17,30 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['Php', 'Html', 'php'],
+		imgSrc: '../../public/img/one-piece.jpg',
+		title: 'Page statique',
+		skills: ['Html', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			"Exercice réalisé lors de la formation DMMW, portant sur l'intégration d'une page statique en HTML/CSS. Mise en page attrayante et adaptative de l'univers des mangas One Piece.",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
 	},
 	{
 		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		title: 'Site Hello Bordeaux',
+		skills: ['php', 'Scss', 'JavaScript'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			' Hello Bordeaux est un site fictif destiné aux personnes nouvellement installées à Bordeaux qui cherchent à faire des sorties ou des connaissances dans un cadre accueillant et sécurisé !',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/sophie-rud/Projet-dwwm-Hello-Bordeaux',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
 		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
 		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		skills: ['php', 'CSS', 'JavaScript'],
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
@@ -61,6 +61,7 @@ const skillIcons = {
 	Html: 'skill-icons:html',
 	Php: 'vscode-icons:file-type-php2',
 	php: 'devicon:php',
+	Scss: 'devicon:sass'
 };
 
 /**

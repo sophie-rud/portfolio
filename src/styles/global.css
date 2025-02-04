@@ -42,6 +42,7 @@
 	--on-secondary: var(--secondary-95);
 
 	/* texto  */
+	--text-x-small: 1.0rem;
 	--text-small: 1.2rem;
 	--text-medium: 1.4rem;
 	--text-large: 1.6rem;

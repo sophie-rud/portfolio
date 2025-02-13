@@ -18,31 +18,32 @@
 export const portafolioData = [
 	{
 		imgSrc: '../../public/img/one-piece.jpg',
-		title: 'Page statique',
+		title: 'One Piece',
 		skills: ['Html', 'CSS'],
 		descripcion:
-			"Exercice réalisé lors de la formation DMMW, portant sur l'intégration d'une page statique en HTML/CSS. Mise en page attrayante et adaptative de l'univers des mangas One Piece.",
-		demoURL: '',
-		repoURL: '',
+			"Intégration d'une page web statique en HTML et CSS, réalisée lors de ma formation DMMW. Mise en page responsive sur l'univers One Piece.",
+		demoURL: 'https://sophie-rud.github.io/One-Piece-Static-Page/',
+		repoURL: 'https://github.com/sophie-rud/One-Piece-Static-Page',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'Site Hello Bordeaux',
+		imgSrc: '../../public/img/hello_bordeaux_home.png',
+		title: 'Hello Bordeaux',
 		skills: ['php', 'Scss', 'JavaScript'],
 		descripcion:
-			' Hello Bordeaux est un site fictif destiné aux personnes nouvellement installées à Bordeaux qui cherchent à faire des sorties ou des connaissances dans un cadre accueillant et sécurisé !',
+			'Projet de fin de formation DWWM | Hello Bordeaux est un site destiné aux personnes nouvellement installées à Bordeaux qui cherchent à faire des activités dans un cadre accueillant et sécurisé !',
 		demoURL: '',
 		repoURL: 'https://github.com/sophie-rud/Projet-dwwm-Hello-Bordeaux',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
+		imgSrc: '../../public/img/expoArt_home.png',
+		// // imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
+		title: 'ExpoArt (en cours)',
 		skills: ['php', 'CSS', 'JavaScript'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			"ExpoArt est un projet, réalisé en groupe, ayant pour but de mettre en contact des artistes et des exposants. L'objectif de ce projet était de manipuler les langages appris en formation, de découvrir et mettre en place des fonctionnalités variées et de faire l'expérience d'un projet web réalisé avec d'autres développeurs.",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',

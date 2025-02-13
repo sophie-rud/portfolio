@@ -1,6 +1,6 @@
 .card__portfolio {
 	width: 332px;
-	height: 246px;
+	height: 280px;
 	overflow: hidden;
 	border-radius: 22px;
 	background: #000;
@@ -10,7 +10,7 @@
 .card__portfolio img {
 	object-fit: cover;
 	object-position: center 0;
-	height: 160px;
+	height: 190px;
 	width: 332px;
 	background: #000;
 }
@@ -23,8 +23,9 @@
 	width: 100%;
 	top: 0;
 	transition: 0.35s;
-	background: #231724;
-	transform: translateY(63%);
+	/* background: #231724; */
+	background: #140127;
+	transform: translateY(67%);
 	padding-top: 15px;
 	transition-property: transform, padding-top;
 	color: var(--on-primary);
@@ -43,7 +44,7 @@
 	padding: 4px 22px;
 	font-size: var(--text-title);
 	font-weight: 500;
-	background: #0008;
+	background: #3A0674 ;
 	backdrop-filter: blur(10px);
 	z-index: 2;
 	transform: translateY(-100%);
@@ -79,8 +80,8 @@
 .card__portfolio:hover .descripcion p {
 	overflow: auto;
 	white-space: wrap;
-	height: 90px;
-	max-height: 90px;
+	height: 115px;
+	max-height: 115px;
 }
 
 .card__portfolio .descripcion p::-webkit-scrollbar {
@@ -98,6 +99,7 @@
 .card__portfolio .skills {
 	display: flex;
 	gap: 10px;
+	padding: 3px;
 	font-size: 3rem; /* Estamos usando rem para los textos */
 }
 

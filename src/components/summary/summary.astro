@@ -1,0 +1,81 @@
+---
+// import Logo from '../Logo.astro';
+// import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import './summary.css';
+---
+
+<section id="summary" class="summary">
+    <Title contenido="Contact & réseaux" />
+
+    <p class="summary__intro">N'hésitez pas à me contacter, je vous répondrai dans les meilleurs délais ! <br/> Vous pouvez également me retrouver sur les réseaux suivants :</p>
+
+    <div class="summary__container">
+        <!-- <div class="footer__container">
+            <SocialIcons width="23" height="23" />
+        </div> -->
+
+        <!-- Contactez-moi -->
+        <div class="summary__content">
+            <a class="summary__link" href="mailto:sophie.rudio@lapiscine.pro">
+                <span id="mailto">
+                    <iconify-icon
+                        icon="ic:twotone-mail"
+                        width="50"
+                        height="50">
+                    </iconify-icon>
+                </span>
+            Me contacter</a>
+        </div>
+
+        <!-- Télécharger CV -->
+        <div class="summary__content">
+            <a class="summary__link"
+            href="../docs/cv_sophie_rudio.pdf"
+            target="_blank"
+            rel="nofollow noreferrer noopener">
+                <span id="cv">
+                    <iconify-icon
+                        icon="pepicons-print:cv"
+                        width="50"
+                        height="50">
+                    </iconify-icon>
+                </span>
+            Télécharger mon CV</a>
+        </div>
+
+        <!-- GitHub -->
+        <div class="summary__content">
+            <a class="summary__link"
+            href="https://github.com/sophie-rud"
+            target="_blank"
+            rel="nofollow noreferrer noopener">
+                <span id="github">
+                    <iconify-icon
+                        icon="mdi:github"
+                        width="50"
+                        height="50">
+                    </iconify-icon>
+                </span>
+            Mon GitHub</a>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="summary__content">
+            <a class="summary__link"
+            href="https://www.linkedin.com/in/sophie-rudio-220b18175/"
+            target="_blank"
+            rel="nofollow noreferrer noopener">
+                <span id="linkedin">
+                    <iconify-icon
+                        icon="simple-icons:linkedin"
+                        width="45"
+                        height="45">
+                    </iconify-icon>
+                </span>
+            LinkedIn</a>
+        </div>
+
+    </div>
+
+</section>

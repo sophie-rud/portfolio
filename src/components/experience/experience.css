@@ -1,7 +1,7 @@
 #background{
 	width: 70%;
-	margin: auto;
 	margin: 4rem auto;
+	padding: 11rem 0;
 }
 
 /* Main DIV */
@@ -17,10 +17,8 @@
 /* DIV CONTAINER */
 .experience__container, .education__container, .workshop__container {
 	display: flex;
-	/* padding: 11rem 13.1rem; */
 	flex-wrap: wrap;
 	justify-content: space-around;
-	/* gap: 4.4rem; */
 	gap: 3rem 0;
 }
 

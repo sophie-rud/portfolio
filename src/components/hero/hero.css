@@ -40,7 +40,13 @@
 }
 
 .hero .hero__text {
-	font-size: var(--text-xx-large);
+	font-size: var(--text-x-large);
+	font-weight: 500;
+}
+
+.hero__light__text {
+	font-size: var(--text-small);
+	font-weight: 300;
 }
 
 .hero__container .text__content {
@@ -48,7 +54,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 4rem;
+	gap: 2rem;
 }
 
 .hero__container .text__content .hero__title {

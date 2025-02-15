@@ -23,6 +23,7 @@
 
 .summary__content {
     display: flex;
+    max-width: 23%;
 }
 
 .summary__link {
@@ -36,7 +37,6 @@
     transition: transform 0.3s ease;
 }
 
-
 #mailto:hover {
     color: #e1a630;
     transform: scale(1.1);
@@ -49,7 +49,38 @@
     color: #E1306C;
     transform: scale(1.1);
 }
-.summary__link #linkedin:hover{
+#linkedin:hover{
 	color: #23a5e1;
     transform: scale(1.1);
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    #summary{
+        margin: 8rem auto 8rem;
+        /* padding: 4rem 0; */
+    }
+
+    .summary__intro {
+        width: 90%;
+        margin: 1rem auto 3rem;
+    }
+
+    .summary__container {
+        justify-content: space-around;
+        gap: 0;
+        width: 80%;
+        margin: 0 auto 5rem;
+        padding: 2rem 1rem 1rem;
+    }
+
+    .summary__link {
+        font-size: var(--text-x-small);
+    }
+
+    #mailto, #cv, #github, #linkedin {
+        margin-bottom: 1rem;
+    }
+
 }

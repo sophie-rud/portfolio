@@ -1,5 +1,5 @@
 :root {
-	/* color  */
+	/* colors  */
 	--primary-0: #190230;
 	--primary-10: #2b1560;
 	--primary-20: #442288;
@@ -27,7 +27,7 @@
 	--secondary-99: #fcf3f8;
 	--secondary-100: #ffffff;
 
-	/* colores de las propiedades */
+	/* colors of the properties */
 	--surface: #4F4360;
 	--surface-variant: #e0d8e7;
 	--surface-dim: #998da9;
@@ -41,7 +41,7 @@
 	--on-surface-secondary: var(--secondary-95);
 	--on-secondary: var(--secondary-95);
 
-	/* texto  */
+	/* text | font-size  */
 	--text-x-small: 1.0rem;
 	--text-small: 1.2rem;
 	--text-medium: 1.4rem;
@@ -68,22 +68,37 @@
 		#df44e7 100%
 	);
 }
+
+/* GENERAL PROPERTIES */
 *{
 	box-sizing: border-box;
 }
+
 html {
 	font-family: var(--font-montserrat) !important;
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
+
 body {
 	width: 100%;
 	background: var(--site-bg) no-repeat;
 	background: var(--site-bg) no-repeat;
 }
+
 main {
 	align-self: center;
 }
+
+/* TEXTS PROPERTIES */
+h3 {
+	/* font-size: 2.5rem; */
+	font-size: var(--text-xx-large);
+	margin: 2rem 0;
+	font-weight: 600;
+	color: var(--primary-90);
+}
+
 p{
 	color: var(--primary-100);
 	font-size: var(--text-general);
@@ -98,4 +113,11 @@ p{
 
 .max__width {
 	max-width: 117.8rem;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+	h2 {
+		padding-top: 8rem;
+	}
 }

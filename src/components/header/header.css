@@ -75,6 +75,8 @@
 .menu__btn {
 	display: none;
 }
+
+
 @media screen and (max-width: 768px) {
 	.header {
 		padding: 1rem;
@@ -87,7 +89,7 @@
 	.header .links {
 		position: fixed;
 		width: 100%;
-		top: calc(100vh - 16rem);
+		top: calc(100vh - 10rem);
 		justify-content: center;
 		align-items: center;
 		right: 0;
@@ -97,10 +99,10 @@
 	}
 
 	.header .header__list {
-		margin-right: 0;
+		margin: auto;
 		z-index: 2;
 		background: #1c0544;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 		border-radius: 14px;
 		width: 100%;

@@ -69,12 +69,17 @@
 	max-width: 80%;
 }
 
+.hero__container iconify-icon {
+	margin: 0rem 5rem;
+}
+
 @media screen and (max-width: 768px) {
 	.hero {
 		padding: 12rem 0 5rem 0;
 	}
 	.hero .hero__img {
 		max-width: 28rem;
+		margin-bottom: 5rem;
 	}
 	.hero .hero__container {
 		display: flex;

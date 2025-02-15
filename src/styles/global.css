@@ -91,6 +91,11 @@ main {
 }
 
 /* TEXTS PROPERTIES */
+
+/* h2 {
+	padding-top: 8rem;
+} */
+
 h3 {
 	/* font-size: 2.5rem; */
 	font-size: var(--text-xx-large);

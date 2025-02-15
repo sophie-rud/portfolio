@@ -32,16 +32,16 @@
 	text-align: center;
 }
 	.experience__content {
-		width: 28%;
+		width: 31%;
 		/* gap: 0.3rem; */
 		background-color: #B95F89;
 	}
 	.education__content {
-		width: 23%;
+		width: 22%;
 		background-color: #337E99;
 	}
 	.workshop__content {
-		width: 21%;
+		width: 22%;
 		background-color: #440386;
 	}
 

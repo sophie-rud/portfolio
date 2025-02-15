@@ -39,13 +39,13 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: '../../public/img/expoArt_home.png',
-		// // imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
+		// imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
 		title: 'ExpoArt (en cours)',
 		skills: ['php', 'CSS', 'JavaScript'],
 		descripcion:
 			"ExpoArt est un projet, réalisé en groupe, ayant pour but de mettre en contact des artistes et des exposants. L'objectif de ce projet était de manipuler les langages appris en formation, de découvrir et mettre en place des fonctionnalités variées et de faire l'expérience d'un projet web réalisé avec d'autres développeurs.",
-		demoURL: '',
-		repoURL: '',
+		// demoURL: '',
+		// repoURL: '',
 		anim: 'fade-left',
 	},
 ];

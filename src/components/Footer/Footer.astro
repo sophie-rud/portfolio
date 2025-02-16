@@ -5,41 +5,53 @@ import './Footer.css';
 ---
 
 <footer>
+
 	<div class="footer__container">
-		<Logo name="Sophie Rudio" />
-		<SocialIcons width="23" height="23" />
+
+		<div class="footer__content">
+			<SocialIcons class="test" width="23" height="23" />
+		</div>
+
+		<div class="footer__content">
+			<Logo name="Sophie Rudio" />
+		</div>
+
+	
+		<aside class="footer__content footer__links">
+			<ul>
+				<li>
+					<a class="footer__link" href="mailto:sophie.rudio@lapiscine.pro">
+						<span>
+							<iconify-icon
+								icon="fluent:mail-28-regular"
+								width="27"
+								height="27"
+								style="color: #dcd8fc">
+							</iconify-icon>
+						</span>
+					sophie.rudio[at]lapiscine.pro</a>
+				</li>
+				<li>
+					<a class="footer__link"
+					href="https://github.com/sophie-rud"
+					target="_blank"
+					rel="nofollow noreferrer">
+						<span>
+							<iconify-icon
+									icon="mdi:github"
+									width="27"
+									height="27"
+									style="color: #dcd8fc">
+							</iconify-icon>
+						</span>
+					@sophie-rud</a>
+				</li>
+			</ul>
+		</aside>
+
 	</div>
 
-	<aside class="footer__links">
-		<ul>
-			<li>
-				<a class="footer__link" href="mailto:sophie.rudio@lapiscine.pro"
-					><span
-						><iconify-icon
-							icon="fluent:mail-28-regular"
-							width="27"
-							height="27"
-							style="color: #dcd8fc"></iconify-icon></span
-					>sophie.rudio[at]lapiscine.pro</a>
-			</li>
-			<li>
-				<a class="footer__link"
-                href="https://github.com/sophie-rud"
-                target="_blank"
-                rel="nofollow noreferrer noopener"
-					><span
-						><iconify-icon
-							icon="mdi:github"
-							width="27"
-							height="27"
-							style="color: #dcd8fc"></iconify-icon></span
-					>@sophie-rud</a>
-			</li>
-		</ul>
+	<p class="copyright">&copy; 2025 Sophie Rudio. Tous droits réservés.</p>
+	<a class="legal-link" href="/legal/legalNotices">Mentions légales</a>
 
-		<p>&copy; 2025 Sophie Rudio. Tous droits réservés.</p>
-
-		<a href="/legal/legalNotices">Mentions légales</a>
-
-	</aside>
 </footer>

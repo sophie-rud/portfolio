@@ -9,7 +9,7 @@ html, body {
   }
   
   #legalMain {
-    flex: 1; /* Remplie l'espace restant */
+    flex: 1; /* fill the page (to place footer on the bottom) */
   }
 
   #legal {
@@ -32,6 +32,8 @@ html, body {
 
   #legal p {
     margin-left: 3rem;
+    font-size: var(--text-medium);
+    font-weight: 300;
   }
 
   #legal a {

@@ -45,8 +45,9 @@
 }
 
 .hero__light__text {
-	font-size: var(--text-small);
-	font-weight: 300;
+	font-size: var(--text-medium);
+	font-weight: 200;
+	color: var(--primary-90);
 }
 
 .hero__container .text__content {

@@ -32,7 +32,7 @@ export const portafolioData = [
 		skills: ['php', 'Scss', 'JavaScript'],
 		descripcion:
 			'Projet de fin de formation DWWM | \nHello Bordeaux est un site destiné aux personnes nouvellement installées à Bordeaux qui cherchent à faire des activités dans un cadre accueillant et sécurisé ! Les utilisateurs peuvent se créer un compte pour s\'inscrire aux sorties proposées par les administrateurs. \nLe site est toujours en cours d\'amélioration.',
-		demoURL: '',
+		demoURL: 'https://vimeo.com/1057568258/ec9ea49fd7',
 		repoURL: 'https://github.com/sophie-rud/Projet-dwwm-Hello-Bordeaux',
 		anim: 'fade-up',
 		averageBrightness: 0.1,

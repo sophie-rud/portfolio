@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "deploy": "astro build && gh-pages -d dist",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -20,7 +21,9 @@
   },
   "description": "![Portada](image-1.png)",
   "main": "index.astro",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SofiDevO/portfolio-astrosofidev-garrux.git"

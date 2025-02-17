@@ -13,7 +13,7 @@ jobs:
       # 1. Configuration de l'identité Git
       - name: Set Git identity
         run: |
-          git config --global user.name "Sophie Rud"
+          git config --global user.name "sophie-rud"
           git config --global user.email "sophie.rudio@lapiscine.pro"
 
       # 2. Checkout du dépôt
@@ -37,7 +37,8 @@ jobs:
       # 5. Déployer avec gh-pages
       - name: Deploy to GitHub Pages
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           npm install gh-pages --save-dev
-          GITHUB_TOKEN=${{ secrets.GH_TOKEN }} npm run deploy
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+          npm run deploy

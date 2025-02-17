@@ -31,7 +31,7 @@ export const portafolioData = [
 		title: 'Hello Bordeaux',
 		skills: ['php', 'Scss', 'JavaScript'],
 		descripcion:
-			'Projet de fin de formation DWWM | Hello Bordeaux est un site destiné aux personnes nouvellement installées à Bordeaux qui cherchent à faire des activités dans un cadre accueillant et sécurisé !',
+			'Projet de fin de formation DWWM | \nHello Bordeaux est un site destiné aux personnes nouvellement installées à Bordeaux qui cherchent à faire des activités dans un cadre accueillant et sécurisé ! Les utilisateurs peuvent se créer un compte pour s\'inscrire aux sorties proposées par les administrateurs. \nLe site est toujours en cours d\'amélioration.',
 		demoURL: '',
 		repoURL: 'https://github.com/sophie-rud/Projet-dwwm-Hello-Bordeaux',
 		anim: 'fade-up',
@@ -40,12 +40,12 @@ export const portafolioData = [
 	{
 		imgSrc: '../../public/img/expoArt_home.png',
 		// imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'ExpoArt (en cours)',
+		title: 'ExpoArt [en cours]',
 		skills: ['php', 'CSS', 'JavaScript'],
 		descripcion:
-			"ExpoArt est un projet, réalisé en groupe, ayant pour but de mettre en contact des artistes et des exposants. L'objectif de ce projet était de manipuler les langages appris en formation, de découvrir et mettre en place des fonctionnalités variées et de faire l'expérience d'un projet web réalisé avec d'autres développeurs.",
-		// demoURL: '',
-		// repoURL: '',
+			"Projet conceptuel en groupe [En cours] \nExpoArt est un projet réalisé en groupe, ayant pour but de mettre en contact des artistes et des exposants. \nL'objectif de ce prototype est de manipuler les langages appris en formation, de découvrir et de mettre en place des fonctionnalités variées et de faire l'expérience d'un projet web réalisé avec d'autres développeurs.",
+		demoURL: null,
+		repoURL: '',
 		anim: 'fade-left',
 	},
 ];

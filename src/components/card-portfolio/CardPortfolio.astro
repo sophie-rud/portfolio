@@ -25,7 +25,8 @@ const {
 	<div class="descripcion__container">
 		<h2 class="card__title">{title}</h2>
 		<div class="descripcion">
-			<p>{descripcion}</p>
+			<!-- <p>{descripcion}</p> -->
+			<p set:html={descripcion.replace(/\n/g, "<br>")}></p>
 
 			<div class="skills">
 				{
@@ -36,19 +37,23 @@ const {
 			</div>
 
 			<div class="buttons">
-				<a href={repoURL} target="_blank" rel="noreferrer nofollow">
-					<span>
-						Github
-						{(<iconify-icon icon="quill:link-out" />)}
-					</span>
-				</a>
+				{repoURL ? (
+					<a href={repoURL} target="_blank" rel="noreferrer nofollow">
+						<span>
+							Github
+							{(<iconify-icon icon="quill:link-out" />)}
+						</span>
+					</a>
+				) : null}
 
-				<a href={demoURL} target="_blank" rel="noreferrer nofollow">
-					<span>
-						Demo
-						{(<iconify-icon icon="quill:link-out" />)}
-					</span>
-				</a>
+				{demoURL ? (
+					<a href={demoURL} target="_blank" rel="noreferrer nofollow">
+						<span>
+							Demo
+							{(<iconify-icon icon="quill:link-out" />)}
+						</span>
+					</a>
+				) : null}
 			</div>
 		</div>
 	</div>

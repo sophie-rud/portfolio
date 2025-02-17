@@ -39,3 +39,7 @@ jobs:
         run: npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          - name: Deploy to GitHub Pages
+        run: |
+          npm install gh-pages --save-dev
+          GITHUB_TOKEN=${{ secrets.GH_TOKEN }} npm run deploy

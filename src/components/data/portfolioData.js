@@ -17,7 +17,7 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: '../../public/img/one-piece.jpg',
+		imgSrc: '../../portfolio/img/one-piece.jpg',
 		title: 'One Piece',
 		skills: ['Html', 'CSS'],
 		descripcion:
@@ -27,7 +27,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: '../../public/img/hello_bordeaux_home.png',
+		imgSrc: '../../portfolio/img/hello_bordeaux_home.png',
 		title: 'Hello Bordeaux',
 		skills: ['php', 'Scss', 'JavaScript'],
 		descripcion:
@@ -38,7 +38,7 @@ export const portafolioData = [
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: '../../public/img/expoArt_home.png',
+		imgSrc: '../../portfolio/img/expoArt_home.png',
 		// imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
 		title: 'ExpoArt [en cours]',
 		skills: ['php', 'CSS', 'JavaScript'],

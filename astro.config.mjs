@@ -6,8 +6,9 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  base: '/portfolio/',
   devToolbar: {
     enabled: false
   },
-  integrations: [react(), tailwind(), sitemap()]
+  integrations: [react(), tailwind({config: { applyBaseStyles: true }}), sitemap()]
 });

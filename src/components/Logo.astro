@@ -2,15 +2,20 @@
 const {name} = Astro.props;
 ---
 
-<a href="#" class="profile">
+<a href="/" class="profile">
     <div class="img__container">
-        <img
+        <!-- <img
             class="header__img"
             src="portfolio/assets/pepicons-house.png"
             alt="Home"
             width="25px"
             height="25px"
-        />
+        /> -->
+        <iconify-icon
+            icon="pepicons-print:house"
+            width="3rem"
+            height=3rem">
+        </iconify-icon>
     </div>
     <h3 class="color__gradiente header__title">
         {name}

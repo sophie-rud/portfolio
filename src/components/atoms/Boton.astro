@@ -3,7 +3,7 @@ import '../hero/hero.css';
 const { href, texto } = Astro.props;
 ---
 
-<a class="primary button" href={href}><slot /></a>
+<a class="primary button" href={href}><slot />{texto}</a>
 
 <style>
 	.button {
@@ -11,12 +11,12 @@ const { href, texto } = Astro.props;
 		justify-content: center;
 		align-items: center;
 		padding: 1.1rem 2.2rem;
-		background: var(--primary);
+		background: var(--primary-30);
 		border-radius: 100px;
 		font-size: var(--text-x-large);
 		transition: 0.35s opacity;
 		max-width: max-content;
-		color: var(--primary-90);
+		color: var(--primary-100);
 	}
 	.button:hover {
 		opacity: 0.7;

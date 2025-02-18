@@ -42,6 +42,10 @@ footer {
     font-size: var(--text-large);
 }
 
+.footer__link .tothetop {
+    margin-top: 2rem;
+}
+
 .copyright, .legal-link {
     text-align: center;
 }

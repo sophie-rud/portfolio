@@ -67,6 +67,18 @@
 	max-width : 70.19rem;
 }
 
+.education__content a {
+	display: flex;
+	justify-content: column;
+	justify-content: center;
+}
+
+.education__link__bookArchi {
+	font-size: var(--text-x-small);
+	color: #b0d2de;
+	margin-top: 0.5rem;
+}
+
 .workshop_span {
 	font-size: var(--text-medium);
 	font-weight: 600;

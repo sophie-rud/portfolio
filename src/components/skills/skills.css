@@ -1,8 +1,9 @@
 #skills {
+	width: 90%;
 	/* display: flex; */
 	max-width: calc(var(--max-width) + 2.2rem);
 	/* padding: 1.1rem; */
-	padding: 11.8rem 1.1rem;
+	padding: 11rem 1.1rem 0;
 	gap: 2.2rem;
 	margin: 4rem auto;
 }

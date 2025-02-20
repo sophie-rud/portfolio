@@ -8,7 +8,7 @@
 
 .about__container {
 	display: flex;
-	padding: 11rem 13.1rem;
+	padding: 11rem 13.1rem 0;
 	/* flex-wrap: wrap; */
 	justify-content: space-around;
 	gap: 4.4rem;
@@ -50,7 +50,6 @@
 	font-weight: 200;
 }
 
-
 .cv__link {
     display: flex;
     flex-direction: column;
@@ -62,7 +61,10 @@
     transition: transform 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
+
+/* RESPONSIVE */
+/* Responsive small desktop, tablet & smartphone */
+@media screen and (max-width: 1200px) {
 	#about {
 		width: 80%;
 		margin: 8rem auto 8rem;
@@ -77,10 +79,6 @@
 	}
 
 	.about__img {
-		/* width: 29.5rem;
-		height: 38.1rem;
-		min-width: 29.5rem;
-		min-height: 38.1rem; */
 		display: none;
 	}
 }

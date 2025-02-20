@@ -1,7 +1,7 @@
 #background{
 	width: 70%;
-	margin: 4rem auto;
-	padding: 11rem 0;
+	margin: 4rem auto 0;
+	padding: 11rem 0 0;
 }
 
 /* Main DIV */
@@ -15,11 +15,15 @@
 }
 
 /* DIV CONTAINER */
-.experience__container, .education__container, .workshop__container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	gap: 3rem;
+.experience__container {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+ .education__container, .workshop__container {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
 }
 
 /* DIV CONTENT (some contents in one container, by type) */
@@ -32,16 +36,13 @@
 	text-align: center;
 }
 	.experience__content {
-		width: 31%;
-		/* gap: 0.3rem; */
 		background-color: #B95F89;
+		/* flex: 1; */
 	}
 	.education__content {
-		width: 22%;
 		background-color: #337E99;
 	}
 	.workshop__content {
-		width: 22%;
 		background-color: #440386;
 	}
 
@@ -139,28 +140,73 @@
 	width: 3rem;
   }
 
+
+
 /* RESPONSIVE */
-@media screen and (max-width: 768px) {
+/* Responsive Desktop */
+@media (max-width: 1200px) {
+	#background {
+		width: 90%;
+	}
+
+    .experience__container, .education__container, .workshop__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Responsive tablet */
+@media screen and (max-width: 1024px) {
 	#background{
 		width: 90%;
 		margin: 8rem auto 8rem;
 		padding: 0rem 0;
 	}
 
-	#background h3 {
-		margin: 0.5rem 0;
-		text-align: center;
+	.experience__container {
+		/* flex-direction: row;
+		align-items: stretch; */
+		gap: 2rem;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.education__container, .workshop__container {
+		gap: 2rem;
+		grid-template-columns: repeat(3, 1fr);
 	}
 
-	.experience__container, .education__container, .workshop__container {
-		padding: 2rem 1rem;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-between;
-		gap: 2rem;
+	/* Text */
+	#background h3 {
+		margin: 4rem 0 2.5rem;
+		text-align: center;
+	}
+	
+	.experience__text, .education__text, .workshop__text {
+		max-width: 100%;
+	}
+	
+	.experience__date, .education__date, .workshop__date {
+		max-width: 100%;
+	}
+}
+
+/* Responsive smartphone */
+@media screen and (max-width: 768px) {
+
+	.experience__container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.education__container, .workshop__container {
+		grid-template-columns: repeat(2, 1fr);
 	}
 
 	.experience__content, .education__content, .workshop__content {
 		width: 100%;
 	}
+	
+}
+
+@media screen and (max-width: 480px) {
+
+	.experience__container, .education__container, .workshop__container {
+		grid-template-columns: repeat(1, 1fr);
+	}	
 }

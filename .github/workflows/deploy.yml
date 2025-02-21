@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - staging  # Déclenche le workflow sur la branche main
+      - main  # Déclenche le workflow sur la branche main
 
 jobs:
   build:

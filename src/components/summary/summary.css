@@ -42,7 +42,8 @@
     transform: scale(1.1);
 }
 #cv:hover{
-    color:#8e64ff;
+    /* color:#8e64ff; */
+    color: #b743b5;
     transform: scale(1.1);
 }
 #github:hover{

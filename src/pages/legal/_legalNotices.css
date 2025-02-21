@@ -40,3 +40,12 @@ html, body {
     color: rgb(129, 188, 247);
   }
 
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  
+  #legalMain h2 {
+    margin: 1rem 0 0.5rem;
+    padding-top: 2rem;
+  }
+
+}

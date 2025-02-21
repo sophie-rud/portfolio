@@ -5,7 +5,35 @@ import Layout from "../layouts/Layout.astro";
 
 ---
 
-<Layout title="Pagina no encontrada">
-        <h1 class="text-xl">Pagina no encontrada</h1>
-        <Boton texto="Regresar" href="/"/>
+<Layout title="Page non trouvée">
+        <main id="page404">
+                <h1 class="text-xl">Page non trouvée</h1>
+                <a id="buttonBack" href="https://sophie-rud.github.io/portfolio/">Retour</a>
+        </main>
 </Layout>
+
+<style>
+
+#page404 h1 {
+        font-size: var(--text-xx-large);
+        color: var(--primary-90);
+        margin: 15rem 0 5rem;
+        text-align: center;
+}
+
+#buttonBack {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1.1rem 2.2rem;
+		background: var(--primary-30);
+		border-radius: 100px;
+		font-size: var(--text-x-large);
+		max-width: 100%;
+		color: var(--primary-100);
+                transition: 0.35s opacity;
+	}
+	#buttonBack:hover {
+                background: var(--primary-60);
+	}
+</style>

@@ -17,16 +17,6 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: '../../portfolio/img/one-piece.jpg',
-		title: 'One Piece',
-		skills: ['Html', 'CSS'],
-		descripcion:
-			"Intégration d'une page web statique en HTML et CSS, réalisée lors de ma formation DMMW. Mise en page responsive sur l'univers One Piece.",
-		demoURL: 'https://sophie-rud.github.io/One-Piece-Static-Page/',
-		repoURL: 'https://github.com/sophie-rud/One-Piece-Static-Page',
-		anim: 'fade-right',
-	},
-	{
 		imgSrc: '../../portfolio/img/hello_bordeaux_home.png',
 		title: 'Hello Bordeaux',
 		skills: ['php', 'Scss', 'JavaScript'],
@@ -47,6 +37,16 @@ export const portafolioData = [
 		demoURL: null,
 		repoURL: '',
 		anim: 'fade-left',
+	},
+	{
+		imgSrc: '../../portfolio/img/one-piece.jpg',
+		title: 'One Piece',
+		skills: ['Html', 'CSS'],
+		descripcion:
+			"Intégration d'une page web statique en HTML et CSS, réalisée lors de ma formation DMMW. Mise en page responsive sur l'univers One Piece.",
+		demoURL: 'https://sophie-rud.github.io/One-Piece-Static-Page/',
+		repoURL: 'https://github.com/sophie-rud/One-Piece-Static-Page',
+		anim: 'fade-right',
 	},
 ];
 

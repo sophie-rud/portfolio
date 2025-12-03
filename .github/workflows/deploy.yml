@@ -13,8 +13,8 @@ jobs:
       # 1. Configuration de l'identité Git
       - name: Set Git identity
         run: |
-          git config --global user.name "sophie-rud"
-          git config --global user.email "sophie.rudio@lapiscine.pro"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       # 2. Checkout du dépôt
       - name: Checkout code
@@ -38,5 +38,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GH_TOKEN }}  # Utilise le token GitHub pour l'authentification
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Utilise le token GitHub pour l'authentification
           publish_dir: ./dist

@@ -18,14 +18,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sharp": "^0.33.5",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.3",
+    "h3": ">=1.15.9"
   },
   "description": "![Portada](image-1.png)",
   "main": "index.astro",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.3.0",
-    "postcss": "^8.5.2"
+    "postcss": "^8.5.2",
+    "h3": ">=1.15.9"
   },
   "repository": {
     "type": "git",

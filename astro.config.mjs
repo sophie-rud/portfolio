@@ -6,9 +6,14 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/portfolio/',
-  devToolbar: {
-    enabled: false
-  },
-  integrations: [react(), tailwind({config: { applyBaseStyles: true }}), sitemap()]
+	site: 'https://sophie-rud.github.io',
+	base: '/portfolio/',
+  	devToolbar: {
+		enabled: false
+  	},
+  integrations: [
+	  react(),
+	  tailwind({config: { applyBaseStyles: true }}),
+	  sitemap()
+  ]
 });
